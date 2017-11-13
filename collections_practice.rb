@@ -56,11 +56,11 @@ end
 
 def organize_schools(schools)
   organized_hash = {}
-  ny = []
+  new_york = []
   schools.each do |school, info|
     info.each do |loc, city|
       if city == "NYC"
-        
+
       # organized_hash[value] = tempArr
       binding.pry
     end
