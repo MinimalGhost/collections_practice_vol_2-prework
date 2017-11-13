@@ -56,7 +56,7 @@ end
 
 def organize_schools(schools)
   organized_hash = {}
-  schools.each do |k, v|
+  schools.each do |school, info|
     v.each do |loc, city|
       tempArr = []
       tempArr.push(k)
