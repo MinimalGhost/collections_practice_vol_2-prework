@@ -65,6 +65,7 @@ def organize_schools(schools)
         new_york.push(school)
       elsif city == "SF"
         san_fran.push(school)
+        organized_hash[city] = san_fran
       else
         chi_town.push(school)
         organized_hash[city] = chi_town
