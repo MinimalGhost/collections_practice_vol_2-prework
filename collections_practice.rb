@@ -66,7 +66,7 @@ def organize_schools(schools)
       elsif city == "SF"
         san_fran.push(school)
       else
-
+        chi_town.push(school)
       end
       # organized_hash[value] = tempArr
       binding.pry
