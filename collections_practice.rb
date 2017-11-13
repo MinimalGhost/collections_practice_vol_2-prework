@@ -63,6 +63,7 @@ def organize_schools(schools)
     info.each do |loc, city|
       if city == "NYC"
         new_york.push(school)
+        organized_hash[city] = new_york
       elsif city == "SF"
         san_fran.push(school)
         organized_hash[city] = san_fran
