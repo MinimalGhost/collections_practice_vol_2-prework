@@ -61,6 +61,7 @@ def organize_schools(schools)
       tempArr = []
       tempArr.push(k)
       organized_hash[value] = tempArr
+      binding.pry
     end
   end
   organized_hash
