@@ -57,6 +57,8 @@ end
 def organize_schools(schools)
   organized_hash = {}
   new_york = []
+  san_fran = []
+  chi_town = []
   schools.each do |school, info|
     info.each do |loc, city|
       if city == "NYC"
